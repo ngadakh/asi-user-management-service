@@ -19,6 +19,4 @@ jobs:
     - name: Build
       run: |
         pwd
-        ls /home/runner/work/cmd/asi-user-management/
-        #go build -o bin/asi-user-management cmd/asi-user-management/main.go 
-        #go build -o ../../bin/asi-user-management ../../cmd/asi-user-management/main.go
+       
