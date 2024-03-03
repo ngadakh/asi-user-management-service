@@ -19,4 +19,5 @@ jobs:
     - name: Build
       run: |
         pwd
+        ls /home/runner/work/asi-user-management-service/asi-user-management-service
        
