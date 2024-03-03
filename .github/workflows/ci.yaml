@@ -17,4 +17,4 @@ jobs:
         go-version: '1.21'
 
     - name: Build
-      run: go build ./cmd/asi-user-management/main.go
+      run: go build -o ../../bin/asi-user-management ../../cmd/asi-user-management/main.go
